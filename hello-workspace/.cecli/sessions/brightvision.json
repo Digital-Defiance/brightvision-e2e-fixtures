@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "session_name": "brightvision",
+  "model": "ollama_chat/qwen3.6:27b-q4_K_M",
+  "weak_model": "ollama_chat/qwen3.6:27b-q4_K_M",
+  "editor_model": "ollama_chat/qwen3.6:27b-q4_K_M",
+  "agent_model": "ollama_chat/qwen3.6:27b-q4_K_M",
+  "editor_edit_format": "editor-diff",
+  "edit_format": "agent",
+  "chat_history": {
+    "done_messages": [],
+    "cur_messages": [
+      {
+        "content": "hello from agent e2e",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "reasoning_content": "The user is asking me to reply with exactly \"hello from agent e2e\" and explicitly says not to run shell commands, edit files, or use tools. This is a simple request - I just need to output that exact text."
+      },
+      {
+        "role": "user",
+        "content": "Reply with exactly: hello from agent e2e. Do not run shell commands, do not edit files, do not use tools."
+      }
+    ]
+  },
+  "files": {
+    "editable": [],
+    "read_only": [],
+    "read_only_stubs": []
+  },
+  "settings": {
+    "auto_commits": false,
+    "auto_lint": true,
+    "auto_test": false
+  },
+  "todo_list": null,
+  "mcps": [
+    "Local"
+  ],
+  "skills": {
+    "skills_paths": [],
+    "skills_includelist": [],
+    "skills_excludelist": []
+  },
+  "tools": {
+    "tools_paths": [],
+    "tools_includelist": [],
+    "tools_excludelist": [
+      "loadskill",
+      "removeskill"
+    ]
+  },
+  "usage": {
+    "total_tokens_sent": 4406,
+    "total_tokens_received": 58,
+    "total_cached_tokens": 0,
+    "total_cost": 0
+  }
+}
