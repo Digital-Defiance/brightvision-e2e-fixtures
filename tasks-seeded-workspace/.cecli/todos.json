@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "activeId": null,
+  "todos": [
+    {
+      "id": "task-a",
+      "title": "First task",
+      "spec": "",
+      "requirements": "",
+      "design": "",
+      "tasks_md": "",
+      "depends_on": [],
+      "branch": "",
+      "pr_url": "",
+      "status": "open",
+      "links": [],
+      "checklist": [],
+      "updated_at": "2026-01-01T00:00:00.000Z"
+    }
+  ],
+  "templates": ["feature", "bugfix", "refactor", "spec-driven"]
+}
