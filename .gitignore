@@ -1,0 +1,11 @@
+# Nested git repos created by BrightVision ensure*Workspace() helpers
+*/.git/
+
+# Generated at test time (ensureAgentTodoCharSplitWorkspace); not part of the pin
+agent-todo-char-split-workspace/
+
+# Runtime Cecli output from local e2e / import-agent-plan (tasks-seeded todos.json is committed)
+**/.cecli/specs/
+context-workspace/.cecli/
+edit-block-workspace/.cecli/
+hello-workspace/.cecli/
