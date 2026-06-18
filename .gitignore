@@ -9,3 +9,10 @@ agent-todo-char-split-workspace/
 context-workspace/.cecli/
 edit-block-workspace/.cecli/
 hello-workspace/.cecli/
+implement-workspace/.cecli/
+spec-progress-workspace/.cecli/
+
+# LLM implement deliverables — recreated by ensureImplementWorkspace() per profile
+implement-workspace/src/auth/token.ts
+implement-workspace/src/auth/token.test.ts
+implement-workspace/src/api/handler.test.ts
